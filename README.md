@@ -49,26 +49,5 @@ The renderItem function signature is as follows
 ```
 **Note:** Passing the `style` prop and applying in the root element of the row item is **required**
 
-## Features planned for next release
-- Lists with dynamic height
-- Expose internal components using default CSS classnames, custom classname injection and refs
-- Add scroll persistence so that the scroll position persists between route changes
-
-## Contributing
-To contribute, follow one of the two options:
-
-- **Open an Issue**
-
-  Open an issue detailing:
-  1. What the issue is
-  2. Steps to reproduce
-  3. Possible solutions
-
-  Note: These details are recommended but are entirely optional.
-
-- **Send a Pull Request**
-
-  Fork this project and send a pull request to the `master` branch.
-
 ## License
 MIT
