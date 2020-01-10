@@ -1,11 +1,13 @@
 # react-virtualized-listview
 A simple virtualized listview inspired by react-virtualized
+i have added a small project that is rendering 10000 items..test this out on 3g network and see the difference it makes :)
+
 
 ## Getting started
-The first step is to add `react-virtualized-listview` into your project.
+The first step is to add `react-virtualized-list` into your project.
 
 ```sh
-$ npm install --save react-virtualized-listview
+$ npm install --save react-virtualized-list
 ```
 
 **Note:** This library is not dependent on `react-virtualized` which is a separate and highly customizable virtualized list library.
@@ -13,7 +15,7 @@ $ npm install --save react-virtualized-listview
 ## Usage
 Import the package into your project using the `import` statement
 ```js
-import List from 'react-virtualized-listview';
+import List from 'react-virtualized-list';
 ```
 
 ### Example
