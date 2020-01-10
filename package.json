@@ -1,0 +1,45 @@
+{
+  "name": "react-virtualized-listview",
+  "version": "0.1.7",
+  "description": "A simple virtualized listview inspired by react-virtualized",
+  "main": "lib.js",
+  "scripts": {
+    "prebuild": "del lib.js",
+    "build-d": "babel src -d lib",
+    "build": "babel src -o lib.js",
+    "lint": "eslint src",
+    "test": "echo 'No tests found'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solarstar101/React-Virtualized-List.git"
+  },
+  "keywords": [
+    "react",
+    "virtualized",
+    "list",
+    "virualized-list"
+  ],
+  "author": "Mario Merino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solarstar101/React-Virtualized-List.git"
+  },
+  "homepage": "https://github.com/solarstar101/React-Virtualized-List.git",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "del-cli": "^1.1.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.9.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "files": [
+    "lib.js"
+  ]
+}
